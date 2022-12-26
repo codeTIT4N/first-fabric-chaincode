@@ -9,7 +9,7 @@
 // always import in any chaincode
 const { Contract } = require("fabric-contract-api");
 
-class FabCar extends Contract {
+class Basic extends Contract {
   //   1. initLedger
 
   async initLedger(ctx) {
@@ -31,4 +31,4 @@ class FabCar extends Contract {
   }
 }
 
-module.exports = FabCar;
+module.exports = Basic;

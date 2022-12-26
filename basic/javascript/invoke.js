@@ -52,7 +52,7 @@ async function main() {
     const network = await gateway.getNetwork("mychannel");
 
     // Get the contract from the network.
-    const contract = network.getContract("fabcar");
+    const contract = network.getContract("basic");
 
     // Submit the specified transaction.
     // first parameter in submitTransaction is the method name and then the arguments
