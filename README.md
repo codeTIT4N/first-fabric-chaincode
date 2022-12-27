@@ -6,12 +6,15 @@ Reference: https://www.youtube.com/watch?v=azBTd3OYST0
 
 ### To run the project
 
-Step 1: Clone the repository and go inside the scripts folder
+Linux machine recommended.
+
+Step 1: Clone the repository ,go inside the scripts folder and install the node modules
 
 ```bash
 git clone https://github.com/codeTIT4N/first-fabric-chaincode.git
 cd first-fabric-chaincode
 cd scripts
+npm install
 ```
 
 Step 2: Make sure you have docker and docker-compose installed then run the following command to start the fabric network test-network and deploy the chaincode to it
